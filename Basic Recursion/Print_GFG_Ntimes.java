@@ -7,7 +7,7 @@ public class Print_GFG_Ntimes {
         //if N = 0 & 0<1 we return back
         if(N < 1) return; 
         
-        //Print GFG
+        //Print GFG until N=0
         System.out.println("GFG"); 
 
         // then call recursive function ( Function which call it self)
