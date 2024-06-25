@@ -17,7 +17,7 @@
 
 import java.util.*;
 
-public class _Sum_Of_First_N_Terms {
+public class Sum_Of_First_N_Terms {
 
                         //initial value & last value/Entered Number N
     public static int Sum1(int i, int n){
