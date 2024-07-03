@@ -17,7 +17,7 @@ public class Array_Reverse_In_Java {
     
     public static void main(String[] args) {
         
-        int arr[] = {1, 2, 3, 4};
+        int arr[] = {1, 2, 3, 4, 5};
 
         
         int rarr[] = new int[arr.length];
@@ -43,7 +43,7 @@ public class Array_Reverse_In_Java {
         }
         System.out.println( "With Loop :  "+ Arrays.toString(rarr));
 
-        reverseArray(arr, start, end);
+        reverseArray(arr, 0, arr.length-1);
         System.out.println("Reversed array using recursion is " + Arrays.toString(arr));
 
     }
