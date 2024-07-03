@@ -1,6 +1,18 @@
 import java.util.*;
 
 public class Fibonacci_Number {
+
+    public static int FibonacciNum(int n){
+
+        if(n == 0 || n == 1 ){
+            return n;
+        }
+
+        // return F[n] = f[n-1] + f[n-2]
+        return FibonacciNum(n-1) + FibonacciNum(n-2);
+        // n =3   f(2) + f(1) 
+        
+    }
     
     public static void main(String[] args) {
 
@@ -28,8 +40,9 @@ public class Fibonacci_Number {
 
         }
 
-        System.out.println(fib1);
-
+        System.out.println("Fibonacci number " +fib1);
+        
+        System.out.println("Fibonacci number with recursion" + FibonacciNum(n));
         scn.close();
         
     }
